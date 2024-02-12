@@ -3,7 +3,7 @@ package q_20953;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class AfterMain1 {
+public class AfterMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,16 +22,12 @@ public class AfterMain1 {
     }
 
     static int dolmen(int a, int b) {
-        int sum, i, j, k;
+        int sum, i;
         sum = 0;
 
-        for (j = 0; j < a + b; j++) {
-            for (k = 0; k < j; k++) {
-                sum++;
-            }
+        for (i = 0; i < a + b; i++) {
+            sum += i * (a + b);
         }
-        i = a + b;
-        sum *= i;
 
         return sum;
     }
