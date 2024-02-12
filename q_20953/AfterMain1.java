@@ -25,7 +25,6 @@ public class AfterMain1 {
         int sum, i, j, k;
         sum = 0;
 
-        i = 0;
         for (j = 0; j < a + b; j++) {
             for (k = 0; k < j; k++) {
                 sum++;
