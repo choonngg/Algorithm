@@ -1,4 +1,4 @@
-package q_10171;
+package baekjoon.q_10171;
 
 public class Main {
     public static void main(String[] args) {
