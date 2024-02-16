@@ -1,4 +1,4 @@
-package q_2816;
+package baekjoon.q_2816;
 
 import java.io.BufferedReader;
 import java.io.IOException;
