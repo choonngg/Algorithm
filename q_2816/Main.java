@@ -22,7 +22,6 @@ public class Main {
             //Find : KBS1 -> KBS2
             findKBS(channel, "KBS1");
             findKBS(channel, "KBS2");
-
         }
     }
 
