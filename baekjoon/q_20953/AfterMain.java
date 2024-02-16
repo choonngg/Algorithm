@@ -1,9 +1,9 @@
-package q_20953;
+package baekjoon.q_20953;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class BeforeMain {
+public class AfterMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,15 +22,13 @@ public class BeforeMain {
     }
 
     static int dolmen(int a, int b) {
-        int sum, i, j, k;
+        int sum, i;
         sum = 0;
+
         for (i = 0; i < a + b; i++) {
-            for (j = 0; j < a + b; j++) {
-                for (k = 0; k < j; k++) {
-                    sum++;
-                }
-            }
+            sum += i * (a + b);
         }
+
         return sum;
     }
 }
