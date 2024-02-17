@@ -20,9 +20,9 @@ public class BeforeMain {
     static boolean isPalindrome(int n) {
         String nStr = Integer.toString(n);
 
-//        StringBuffer sb = new StringBuffer(nStr);
-//        String rnStr = sb.reverse().toString();
-        String rnStr = new StringBuffer(nStr).reverse().toString();
+        StringBuffer sb = new StringBuffer(nStr);
+        String rnStr = sb.reverse().toString();
+//        String rnStr = new StringBuffer(nStr).reverse().toString();
 
         return nStr.equals(rnStr);
     }
